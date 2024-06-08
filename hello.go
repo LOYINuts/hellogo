@@ -2,6 +2,6 @@ package hellogo
 
 import "fmt"
 
-func Greetings() {
-	fmt.Printf("Hello! Welcome to LOYINuts' package!")
+func Greetings(name string) {
+	fmt.Printf("Hello %s! Welcome to LOYINuts' package!\n", name)
 }
